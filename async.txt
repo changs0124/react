@@ -1,0 +1,13 @@
+npm install react-icons
+https://react-icons.github.io/react-icons/
+
+file - preferences - configure user snippets - javascriptreact
+주석 밑에
+"emotionJsx": {
+	"prefix": "ej",
+	"body": [
+		"/** @jsxImportSource @emotion/react */",
+		"import * as s from \"./style\";"
+	],
+	"description": "이모션 JSX Import"
+}
